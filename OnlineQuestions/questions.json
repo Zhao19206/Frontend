@@ -1,0 +1,180 @@
+[  {"id": 1,
+	"question": "1. The main purpose of JavaScript in web browser is to",
+	"answers": [{"option":"A:Creating animations and other visual effects","done":false},
+                {"option":"B:User Interface","done":false},
+                {"option":"C:Both A and B","done":false},
+                {"option":"D:None of the mentioned","done":false}],
+    "canswer": "A:Creating animations and other visual effects"
+	},
+
+	{"id": 2,
+    "question": "2. A JavaScript program can traverse and manipulate document content through",
+    "answers": [{"option":"A:Element Object","done":false},
+                {"option":"B:Document Object","done":false},
+                {"option":"C:Both a and b","done":false},
+                {"option":"D:None of the mentioned","done":false}],
+    "canswer": "C:Both a and b"
+    },
+
+    {"id": 3,
+    "question": "3. The behaviour of the document elements can be defined by",
+    "answers": [{"option":"A:Using document object","done":false},
+                {"option":"B:Registering appropriate event handlers","done":false},
+                {"option":"C:Using element object","done":false},
+                {"option":"D:All of the mentioned","done":false}],
+    "canswer": "B:Registering appropriate event handlers"
+    },
+
+    {"id": 4,
+    "question": "4. The service(s) that enables networking through scripted HTTP requests is",
+    "answers": [{"option":"A:XMLHttpResponse","done":false},
+                {"option":"B:XMLRequest","done":false},
+                {"option":"C:XMLHttpRequest","done":false},
+                {"option":"D: All of the mentioned","done":false}],
+    "canswer": "C:XMLHttpRequest"
+    },
+
+    {"id": 5,
+    "question": "5. The HTML5 specification includes",
+    "answers": [{"option":"A:Data storage","done":false},
+                {"option":"B:Graphics APIs","done":false},
+                {"option":"C:Other APIs for web apps","done":false},
+                {"option":"D:All of the mentioned","done":false}],
+    "canswer": "D:All of the mentioned"
+    },
+
+    {"id": 6,
+    "question": "6. Which of the following are not advanced services?",
+    "answers": [{"option":"A:Data storage","done":false},
+                {"option":"B:Networking","done":false},
+                {"option":"C:XMLHttpRequest object","done":false},
+                {"option":"D:None of the mentioned","done":false}],
+    "canswer": "D:None of the mentioned"
+    },
+
+    {"id": 7,
+    "question": "7. JavaScript code between a pair of script tags are called",
+    "answers": [{"option":"A:Non-inline","done":false},
+                {"option":"B:External","done":false},
+                {"option":"C:Referenced","done":false},
+                {"option":"D:Inline","done":false}],
+    "canswer": "D:Inline"
+    },
+
+    {"id": 8,
+    "question": "8. Client-side JavaScript code is embedded within HTML documents in",
+    "answers": [{"option":"A:A URL that uses the special javascript:encoding","done":false},
+                {"option":"B:A URL that uses the special javascript:stack","done":false},
+                {"option":"C:A URL that uses the special javascript:protocol","done":false},
+                {"option":"D:A URL that uses the special javascript:code","done":false}],
+    "canswer": "C:A URL that uses the special javascript:protocol"
+    },
+
+    {"id": 9,
+    "question": "9. What is the programming philosophy that argues that content and behaviour should as much as possible be kept separate?",
+    "answers": [{"option":"A:Unobtrusive JavaScript","done":false},
+                {"option":"B:Obtrusive JavaScript","done":false},
+                {"option":"C:Inherited JavaScript","done":false},
+                {"option":"D:Modular JavaScript","done":false}],
+    "canswer": "A:Unobtrusive JavaScript"
+    },
+
+    {"id": 10,
+    "question": "10.  Which of the following communicates with server-side CGI scripts through HTML form submissions and can be written without the use of JavaScript?",
+    "answers": [{"option":"A:Static Web Pages","done":false},
+                {"option":"B:Interactive Web Pages","done":false},
+                {"option":"C: Conditional Web Pages","done":false},
+                {"option":"D:None of the mentioned","done":false}],
+    "canswer": "B:Interactive Web Pages"
+    },
+
+    {"id": 11,
+    "question": "11. What is the correct JavaScript syntax to change the content of the HTML element below?<p id=\"demo\">This is a demonstration.</p>",
+    "answers": [{"option":"A:document.getElementById(\"demo\").innerHTML = \"Hello World!\";","done":false},
+                {"option":"B:#demo.innerHTML = \"Hello World!\";","done":false},
+                {"option":"C:document.getElement(\"p\").innerHTML = \"Hello World!\";","done":false},
+                {"option":"D:document.getElementByName(\"p\").innerHTML = \"Hello World!\";","done":false}],
+    "canswer": "A:document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+    },
+
+    {"id": 12,
+    "question": "12. The Bootstrap grid system is based on how many columns?",
+    "answers": [{"option":"A:6","done":false},
+                {"option":"B:8","done":false},
+                {"option":"C:12","done":false},
+                {"option":"D:16","done":false}],
+    "canswer": "C:12"
+    },
+
+    {"id": 13,
+    "question": "13. A standard navigation bar is created with:",
+    "answers": [{"option":"A:<nav class=\"navbar default-navbar\">","done":false},
+                {"option":"B:<nav class=\"navigationbar navbar-default\">","done":false},
+                {"option":"C:<nav class=\"navbar navbar-default\">","done":false},
+                {"option":"D:<nav class=\"nav navbar\">","done":false}],
+    "canswer": "C:<nav class=\"navbar navbar-default\">"
+    },
+
+    {"id": 14,
+    "question": "14. How to write an IF statement in JavaScript?",
+    "answers": [{"option":"A:if i == 5 then","done":false},
+                {"option":"B:if (i == 5)","done":false},
+                {"option":"C:if i = 5","done":false},
+                {"option":"D:if i = 5 then","done":false}],
+    "canswer": "B:if (i == 5)"
+    },
+
+    {"id": 15,
+    "question": "15. The <canvas> element in HTML5 is used to:",
+    "answers": [{"option":"A:create draggable elements","done":false},
+                {"option":"B:manipulate data in MySQL","done":false},
+                {"option":"C:isplay database records","done":false},
+                {"option":"D:draw graphics","done":false}],
+    "canswer": "D:draw graphics"
+    },
+
+    {"id": 16,
+    "question": "16. What is the correct way to write a JavaScript array?",
+    "answers": [{"option":"A:var colors = \"red\", \"green\", \"blue\"","done":false},
+                {"option":"B:var colors = [\"red\", \"green\", \"blue\"]","done":false},
+                {"option":"C:var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")","done":false},
+                {"option":"D:var colors = (1:\"red\", 2:\"green\", 3:\"blue\")","done":false}],
+    "canswer": "B:var colors = [\"red\", \"green\", \"blue\"]"
+    },
+
+    {"id": 17,
+    "question": "17. Which is the correct CSS syntax?",
+    "answers": [{"option":"A:{body;color:black;}","done":false},
+                {"option":"B:body {color: black;}","done":false},
+                {"option":"C:body:color=black;","done":false},
+                {"option":"D:{body:color=black;}","done":false}],
+    "canswer": "B:body {color: black;}"
+    },
+
+    {"id": 18,
+    "question": "18. How do you display a border like this:The top border = 10 pixels,The bottom border = 5 pixels,The left border = 20 pixels,The right border = 1pixel?",
+    "answers": [{"option":"A:border-width:10px 20px 5px 1px;","done":false},
+                {"option":"B:border-width:5px 20px 10px 1px;","done":false},
+                {"option":"C:border-width:10px 1px 5px 20px;","done":false},
+                {"option":"D:border-width:10px 5px 20px 1px;","done":false}],
+    "canswer": "C:border-width:10px 1px 5px 20px"
+    },
+
+    {"id": 19,
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "answers": [{"option":"A:msg(\"Hello World\");","done":false},
+                {"option":"B:alert(\"Hello World\");","done":false},
+                {"option":"C:msgBox(\"Hello World\");","done":false},
+                {"option":"D:I am a pig19alertBox(\"Hello World\");","done":false}],
+    "canswer": "B:alert(\"Hello World\");"
+    },
+
+    {"id": 20,
+    "question": "Which class is used to create a button group?",
+    "answers": [{"option":"A:.group-btn","done":false},
+                {"option":"B:.btn-group","done":false},
+                {"option":"C:.group-button","done":false},
+                {"option":"D:.button-group","done":false}],
+    "canswer": "B:.btn-group"
+    }
+]	

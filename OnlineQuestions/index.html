@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="OnApp">
+<head>
+	<title>Online Assignment</title>
+	<link rel="stylesheet" href="source/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="source/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="quizstyle.css">
+</head>
+<div ng-controller="dispCtrl">
+<div id="header">
+	<header>
+	<h1>Front-End mock interview quiz</h1>
+		</header>
+	</div>
+	<div id="quiztable" class="row">
+
+		<table class="col-md-8 col-md-offset-3" ng-repeat="sample in filteredquestions">
+			<tr>
+				<td>{{sample.question}}</td>
+			</tr>
+			<tr ng-repeat="answer in sample.answers">
+				<td>{{answer.option}}</td>
+
+				<td class="col-md-4 "><input type="checkbox" ng-model="answer.done"></td>
+			</tr>
+		</table>
+
+	<div class="col-md-4 col-md-offset-4">
+		<pagination total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>
+	</div>
+
+	<div id="end" class="col-md-4 col-md-offset-5">
+		<button type="button" class="btn btn-primary" ng-click="open()">Submit!</button>
+	</div>
+
+</div>
+</div>
+
+	<footer id="footer">
+		&copy;marlabs-2015.
+	</footer>
+
+<div>
+	<script type="text/ng-template" id="myModalContent.html">
+		<div class="modal-header">
+			<h3 class="modal-title">You got {{count}} questions right! </h3>
+		</div>
+		<div class="modal-body">
+			<ul>
+				<li ng-repeat="item in items">
+					<a href="#" ng-click="$event.preventDefault(); change(item); selected.item = item">{{ item.question }}</a>
+				</li>
+			</ul>
+			You selected: <b ng-repeat="answer in selected.item.answers" ng-show="answer.done" ng-style="mystyle">{{ answer.option }}</b> <br/>
+			Correct answer: <b>{{ selected.item.canswer }}</b>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+			<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+		</div>
+	</script>
+
+</div>
+
+	<script type="text/javascript" src="source/angular.min.js"></script>
+	<script type="text/javascript" src="source/ui-bootstrap-tpls-0.13.3.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
