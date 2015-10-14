@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hardware Repair",
+    "description": "Mmm computer repair. Just thinking about it makes our geeky little hearts race. Whether it involves replacing bad RAM, a malfunctioning motherboard or a cracked screen, we service most major brands regardless of when the device was purchased. Some repairs can be done onsite at your location, some can be done at our Precinct in your local Best Buy? store, but more extensive repairs will need to be sent to the experts at Geek Squad City, our central repair facility in Hillview, Kentucky.",
+    "image":"computer-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Virus Removal",
+    "description": "Mmm computer repair. Just thinking about it makes our geeky little hearts race. Whether it involves replacing bad RAM, a malfunctioning motherboard or a cracked screen, we service most major brands regardless of when the device was purchased. Some repairs can be done onsite at your location, some can be done at our Precinct in your local Best Buy? store, but more extensive repairs will need to be sent to the experts at Geek Squad City, our central repair facility in Hillview, Kentucky.",
+    "image":"computer-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "System Tuneup",
+    "description": "Mmm computer repair. Just thinking about it makes our geeky little hearts race. Whether it involves replacing bad RAM, a malfunctioning motherboard or a cracked screen, we service most major brands regardless of when the device was purchased. Some repairs can be done onsite at your location, some can be done at our Precinct in your local Best Buy? store, but more extensive repairs will need to be sent to the experts at Geek Squad City, our central repair facility in Hillview, Kentucky.",
+    "image":"computer-icon.png"
+  }
+]
